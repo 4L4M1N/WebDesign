@@ -1,0 +1,50 @@
+.popup-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin:10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+}
+/* if close is used */
+/* .popup-close {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+} */
+.popup-icon {
+    height: 120px;
+    width: 120px;
+    content: url('check.png');
+    position: absolute;
+    top:-60px;
+    left:110px;
+   
+}
+.popup-content {
+    padding-top:25px
+}
+.btn-info
+{
+    display: block;
+    margin: 10px auto;
+    border: 0;
+    padding: 7px 20px;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+    border-radius: 5px;
+    color: #fff;
+    /* font-size: 20px; */
+}
