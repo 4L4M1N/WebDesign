@@ -6,26 +6,30 @@
     </head>
     <body>
         <!-- TODO:Make Responsive     -->
-        <div class="login">
+        <div class="login-wrapper">
                 <div class="login-header">
                     Login
                 </div>
-                <div class="content">
-                    <div class="form-label">
-                        <label>User Name</label>
-                        <input class="form-element"></input>
+                <form class="login-form">
+                    <div class="content">
+                        <div class="form-label">
+                            <label>User Name</label>
+                            <input class="form-element" type="text" id="username" placeholder="Username"></input>
+                        </div>
+                        <div class="form-label">
+                            <label>Password</label>
+                            <input class="form-element" type="password"></input>
+                        </div>
                     </div>
-                    <div class="form-label">
-                        <label>Password</label>
-                        <input class="form-element" type="password"></input>
-                    </div>
-                </div>
-                
-                <input type="checkbox">Remember Me<br>
-                 
-                <button class="btn-info">Login</button>
+                    <!-- Error message -->
+                    <!-- <div class="error">
+                        <span>User name or Password is incorrect</span>
+                    </div> -->
+                    <input type="checkbox">Remember Me<br>
+                    <input type="submit" class="btn-info" value="Login"></input>
+                </form>
             </div>
        
-        <script src="login.css"></script>
+        <script src="login.js"></script>
     </body>
 </html>
